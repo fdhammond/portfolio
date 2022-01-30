@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import Header from "./components/Header";
 import Social from "./components/Social";
 import Profile from "./components/Profile";
@@ -17,7 +16,7 @@ function App() {
       <Flex w="100%">
         <Heading ml="8" size="md" fontWeight="semibold" color="cyan.400">
           <Image
-            src="https://res.cloudinary.com/dzkqopnby/image/upload/v1643501462/Portfolio/logo_pszepg.png"
+            src="https://res.cloudinary.com/dzkqopnby/image/upload/v1643502276/Portfolio/logo_ee6nxr.svg"
             alt="logo"
             width="35px"
             height="35px"
