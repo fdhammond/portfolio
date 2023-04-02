@@ -20,7 +20,7 @@ export default function Home() {
               </div>
               <div className="flex justify-center mt-10">
                 <Image
-                  src="/img/profile.jpg"
+                  src="https://res.cloudinary.com/dzkqopnby/image/upload/v1680461220/profile_txdjhj.jpg"
                   width={200}
                   height={200}
                   alt="Profile image"
