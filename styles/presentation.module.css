@@ -1,0 +1,33 @@
+.animation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25rem;
+}
+@media (max-width: 640px) {
+    .animation {
+        margin-left: 0;
+        justify-content: flex-start;
+    }
+}
+
+.component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    position: absolute;
+}
+
+.circle {
+    min-width: 180px;
+    min-height: 180px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-image: url('https://res.cloudinary.com/dzkqopnby/image/upload/v1681056122/round-text_uy9bvx.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}

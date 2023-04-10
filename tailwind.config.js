@@ -13,6 +13,9 @@ module.exports = {
       fontFamily: {
         sans: ["Outfit"],
       },
+      screens: {
+        'xs': '475px',
+      }
     },
   },
   plugins: [],

@@ -1,5 +1,7 @@
 import Layout from "@/components/layout";
 import Hello from "./hello";
+import About from '@/components/about'
+import Resume from "@/components/resume";
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
@@ -10,10 +12,9 @@ export default function Home() {
   };
   return (
     <>
-      <div className="min-h-screen w-full h-full bg-zinc-900">
-        <div className="flex">
-          <aside className="text-white w-1/4 ml-10 mt-14 h-screen sticky top-14">
-            <div className="flex-column border-zinc-700 border rounded-3xl w-full">
+      <div className="bg-zinc-900 flex flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-28 h-full">
+          <aside className="text-white md:w-1/3 lg:w-1/4 xs:m-6 md:ml-10 md:mt-14 top-14 md:mr-32 lg:mr-32">
+            <div className="flex-column border-zinc-700 border rounded-3xl md:fixed">
               <div className="flex justify-between m-6">
                 <h2>Federico Hammond</h2>
                 <p>Front End Developer</p>
@@ -42,10 +43,13 @@ export default function Home() {
               </div>
             </div>
           </aside>
-          <main className="text-white w-2/4 ml-56 mt-14">
-            <Hello />
-          </main>
-        </div>
+          <div className="xs:m-6">
+            <main className="bg-zinc-900 text-white md:ml-20">
+              <Hello />
+              <About />
+              <Resume />
+            </main>
+          </div>
       </div>
     </>
   );
