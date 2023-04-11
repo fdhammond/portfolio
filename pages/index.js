@@ -2,6 +2,7 @@ import Layout from "@/components/layout";
 import Hello from "./hello";
 import About from '@/components/about'
 import Resume from "@/components/resume";
+import Skills from "@/components/skills";
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
@@ -48,6 +49,7 @@ export default function Home() {
               <Hello />
               <About />
               <Resume />
+              <Skills />
             </main>
           </div>
       </div>

@@ -1,5 +1,6 @@
-import { BsCardText } from 'react-icons/bs'
+import { BsCardText, BsCodeSlash, BsUniversalAccessCircle } from 'react-icons/bs'
 import Button from "@/components/button";
+import Specialization from './specialization';
 
 export default function Resume() {
   return (
@@ -8,8 +9,19 @@ export default function Resume() {
        <h1 className="text-6xl break-normal md:mb-12">
         My <span className="text-green-400">Specializations</span>
       </h1>
-      <div className="text-base text-zinc-500 xs:mt-12 md:w-3/4">
-
+      <div>
+        <Specialization
+          title={'Development'}
+          paragraph={'I build websites with ReactJS, NextJS, NodeJS, Express, Tailwind'}
+          projects={'10+ Projects'}
+          Icon={BsCodeSlash}
+        />
+        <Specialization
+          title={'Accessibility'}
+          paragraph={'I worked with accessibility making websites usable by as many people as possible'}
+          projects={'5+ Projects'}
+          Icon={BsUniversalAccessCircle}
+        />
       </div>
     </div>
   )

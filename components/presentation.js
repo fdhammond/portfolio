@@ -1,6 +1,6 @@
 import { BsArrowDown } from 'react-icons/bs'
 import { BsHouse } from "react-icons/bs";
-import { motion } from "framer-motion"
+import { motion } from 'framer-motion'
 import Button from "@/components/button";
 import styles from '../styles/presentation.module.css'
 
