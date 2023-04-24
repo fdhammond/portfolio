@@ -8,7 +8,7 @@ import Technologies from "../components/technologies";
 
 export default function Skills() {
   return (
-    <div className="md:mt-24 md:h-1/2 md:w-3/4">
+    <div className="md:mt-24 md:h-1/2 md:w-3/4 pt-10" id="skills">
       <Button Icon={SiDarkreader} text={"MY SKILLS"} />
       <h1 className="text-6xl break-normal md:mb-12">
         My <span className="text-green-400">Advantages</span>

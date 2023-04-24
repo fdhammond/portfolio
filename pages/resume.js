@@ -8,7 +8,7 @@ import Specialization from "../components/specialization";
 
 export default function Resume() {
   return (
-    <div className="md:mt-24 md:h-1/2">
+    <div className="md:mt-24 md:h-1/2 pt-10" id="resume">
       <Button Icon={BsCardText} text={"Services"} />
       <h1 className="text-6xl break-normal md:mb-12">
         My <span className="text-green-400">Specializations</span>
