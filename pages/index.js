@@ -8,6 +8,7 @@ import Navbar from "@/components/navbar";
 import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
+import Hamburger from "../components/hamburger";
 
 export default function Home() {
   const iconStyle = {
@@ -19,6 +20,9 @@ export default function Home() {
         className="bg-zinc-900 flex flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-28 h-full"
         id="presentation">
         <aside className="text-white md:w-1/3 lg:w-1/4 xs:m-6 md:ml-10 md:mt-14 top-14 md:mr-32 lg:mr-32">
+          <div className="flex justify-end cursor-pointer z-50">
+            <Hamburger />
+          </div>
           <div className="flex-column border-zinc-700 border rounded-3xl md:fixed">
             <div className="flex justify-between m-6">
               <h2>Federico Hammond</h2>
@@ -58,7 +62,7 @@ export default function Home() {
             <Contact />
           </main>
         </div>
-        <div className="text-white pr-10 md:w-1/3 lg:w-1/4 xs:m-6 md:ml-10 md:mt-14 top-14">
+        <div className="text-white md:w-1/3 lg:w-1/5 xs:m-6 md:ml-10 hidden md:block">
           <Navbar />
         </div>
       </div>

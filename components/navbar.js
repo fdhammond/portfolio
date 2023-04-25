@@ -8,38 +8,38 @@ import styles from "../styles/navbar.module.css";
 export default function Navbar() {
   return (
     <div className="md:fixed">
-      <nav className="flex column">
-        <ul className="m-4 border-green-400 border rounded-3xl text-zinc-500">
-          <li className={`${styles.list} hover:text-green-400`}>
-            <Link href="#presentation" scroll={false}>
+      <nav className="flex column mt-36">
+        <ul className="m-4 border-green-400 border rounded-full text-zinc-500">
+          <Link href="#presentation" scroll={false}>
+            <li className={`${styles.list} hover:text-green-400`}>
               <BsHouse />
-            </Link>
-          </li>
-          <li className={`${styles.list} hover:text-green-400`}>
-            <Link href="#about" scroll={false}>
+            </li>
+          </Link>
+          <Link href="#about" scroll={false}>
+            <li className={`${styles.list} hover:text-green-400`}>
               <RxPerson />
-            </Link>
-          </li>
-          <li className={`${styles.list} hover:text-green-400`}>
-            <Link href="#resume" scroll={false}>
+            </li>
+          </Link>
+          <Link href="#resume" scroll={false}>
+            <li className={`${styles.list} hover:text-green-400`}>
               <BsCardText />
-            </Link>
-          </li>
-          <li className={`${styles.list} hover:text-green-400`}>
-            <Link href="#skills" scroll={false}>
+            </li>
+          </Link>
+          <Link href="#skills" scroll={false}>
+            <li className={`${styles.list} hover:text-green-400`}>
               <SiDarkreader />
-            </Link>
-          </li>
-          <li className={`${styles.list} hover:text-green-400`}>
-            <Link href="#projects" scroll={false}>
+            </li>
+          </Link>
+          <Link href="#projects" scroll={false}>
+            <li className={`${styles.list} hover:text-green-400`}>
               <AiOutlineProfile />
-            </Link>
-          </li>
-          <li className={`${styles.list} hover:text-green-400`}>
-            <Link href="#contact" scroll={false}>
+            </li>
+          </Link>
+          <Link href="#contact" scroll={false}>
+            <li className={`${styles.list} hover:text-green-400`}>
               <AiOutlineContacts />
-            </Link>
-          </li>
+            </li>
+          </Link>
         </ul>
       </nav>
     </div>
