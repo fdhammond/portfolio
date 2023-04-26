@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { BsArrowDown } from "react-icons/bs";
 import { BsHouse } from "react-icons/bs";
 import { motion } from "framer-motion";
@@ -18,14 +19,16 @@ export default function Presentation() {
           <div>Just simple like that!</div>
         </div>
         <div className={`${styles.animation} xs:mt-12`}>
-          <div className={styles.component}>
-            <BsArrowDown size={32} className={styles.arrow} />
-            <motion.div
-              className={styles.circle}
-              animate={{ rotate: 360 }}
-              transition={{ ease: "linear", duration: 15, repeat: Infinity }}
-            />
-          </div>
+          <Link href="#projects" scroll={false}>
+            <div className={styles.component}>
+              <BsArrowDown size={32} className={styles.arrow} />
+              <motion.div
+                className={styles.circle}
+                animate={{ rotate: 360 }}
+                transition={{ ease: "linear", duration: 15, repeat: Infinity }}
+              />
+            </div>
+          </Link>
         </div>
       </>
     </div>

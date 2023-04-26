@@ -20,7 +20,7 @@ export default function Hamburger() {
 
   return (
     <div className="fixed">
-      <nav className="ml-6 sm:fixed top-0">
+      <nav className="ml-6 sm:fixed top-0 md:hidden">
         <AiOutlineMenu
           size={44}
           className="border-white border rounded-full p-2 text-white bg-black"
