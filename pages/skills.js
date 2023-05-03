@@ -36,12 +36,12 @@ export default function Skills() {
 
   return (
     <div ref={ref} className="md:mt-24 md:h-1/2 md:w-3/4 pt-10" id="skills">
-      <motion.div animate={animation} className="md:mt-24">
+      <motion.div animate={animation} className="md:mt-24 xs:mt-24">
         <Button Icon={SiDarkreader} text={"MY SKILLS"} />
         <h1 className="text-6xl break-normal md:mb-12">
           My <span className="text-green-400">Advantages</span>
         </h1>
-        <div className="flex justify-start flex-wrap">
+        <div className="flex justify-center flex-wrap xs:mt-12">
           <Technologies Icon={DiJavascript1} tech={"Javascript"} />
 
           <Technologies Icon={FaReact} tech={"React"} />
