@@ -14,8 +14,8 @@ module.exports = {
         sans: ["Outfit"],
       },
       screens: {
-        'xs': '475px',
-      }
+        xs: "390px",
+      },
     },
   },
   plugins: [],
