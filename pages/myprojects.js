@@ -11,6 +11,9 @@ export default function MyProjects() {
       </h1>
       <div className="text-base text-zinc-500 xs:mt-12 md:w-3/4">
         <Project
+          tech1="ReactJS"
+          projectTitle="Cryptocurrencies App"
+          projectUrl="https://cryptocurrency-app-zeta.vercel.app/"
           urlImage={
             "https://res.cloudinary.com/dzkqopnby/image/upload/v1681255285/crypto_k4gp14.png"
           }

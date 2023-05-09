@@ -30,17 +30,19 @@ export default function Contact() {
     }
   }, [inView, animation]);
   return (
-    <div ref={ref} className="mb-14" id="contact">
+    <div ref={ref} className="mb-14 flex flex-wrap" id="contact">
       <motion.div animate={animation} className="md:mt-36 xs:mt-32">
         <Button Icon={AiOutlineContacts} text={"Contact"} />
         <h1 className="text-6xl break-normal md:mb-12 md:w-3/4">
           Contact <span className="text-green-400">me</span>
         </h1>
         <div className="text-base xs:mt-12 md:w-3/4 flex">
-          <h1 className="text-2xl font-light">federico.hammond8@gmail.com</h1>
-          <span className="ml-12">
+          <h1 className="md:text-2xl font-light xs:text-xl">
+            federico.hammond8@gmail.com
+          </h1>
+          <span className="md:ml-12 flex self-center xs:ml-4">
             <a href="mailto:federico.hammond8@gmail.com">
-              <RiMailSendLine className="text-4xl hover:text-green-400" />
+              <RiMailSendLine className="md:text-4xl hover:text-green-400 xs:text-2xl" />
             </a>
           </span>
         </div>

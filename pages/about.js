@@ -33,7 +33,7 @@ export default function About() {
     <div ref={ref} className="pt-40" id="about">
       <motion.div animate={animation} className="md:mt-24">
         <Button Icon={RxPerson} text={"About"} />
-        <h1 className="text-6xl break-normal md:mb-12 md:w-3/4">
+        <h1 className="lg:text-6xl xs:text-5xl break-normal md:mb-12 md:w-3/4">
           The key to success is{" "}
           <span className="text-green-400">hard work </span>
           and <span className="text-green-400">determination</span>

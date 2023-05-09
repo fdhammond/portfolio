@@ -9,6 +9,7 @@ import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
 import Hamburger from "../components/hamburger";
+import Link from "next/link";
 
 export default function Home() {
   const iconStyle = {
@@ -25,8 +26,8 @@ export default function Home() {
           </div>
           <div className="flex-column border-zinc-700 border rounded-3xl md:fixed">
             <div className="flex justify-between m-6">
-              <h2>Federico Hammond</h2>
-              <p>Front End Developer</p>
+              <h2 className="m-2">Federico Hammond</h2>
+              <p className="m-2">Front End Developer</p>
             </div>
             <div className="flex justify-center mt-10">
               <Image
@@ -47,7 +48,11 @@ export default function Home() {
             <div className="flex justify-center text-center">
               <button className="flex justify-center rounded-full bg-green-500 w-2/3 p-2 mt-10 mb-10">
                 <CiMail size={"1.5rem"} />
-                <span className="ml-3">HIRE ME!</span>
+                <span className="ml-3">
+                  <Link href="https://www.linkedin.com/in/federico-hammond" legacyBehavior>
+                    HIRE ME!
+                  </Link>
+                </span>
               </button>
             </div>
           </div>

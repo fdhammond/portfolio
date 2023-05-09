@@ -38,7 +38,7 @@ export default function Resume() {
     <div ref={ref} className="md:mt-24 md:h-1/2 pt-10" id="resume">
       <motion.div animate={animation} className="md:mt-24 xs:mt-24">
         <Button Icon={BsCardText} text={"Services"} />
-        <h1 className="text-6xl xs:text-6xl break-normal md:mb-12">
+        <h1 className="text-6xl break-normal md:mb-12 xs:text-5xl">
           My <span className="text-green-400 mr-4">Specializations</span>
         </h1>
         <div className="xs:mt-12">

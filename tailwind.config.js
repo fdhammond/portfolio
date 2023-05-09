@@ -14,7 +14,7 @@ module.exports = {
         sans: ["Outfit"],
       },
       screens: {
-        xs: "390px",
+        xs: "375px",
       },
     },
   },
