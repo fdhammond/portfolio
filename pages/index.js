@@ -43,7 +43,9 @@ export default function Home() {
               <p>federico.hammond8@gmail.com</p>
             </div>
             <div className="flex justify-center text-center mt-5">
-              <FaGithub style={iconStyle} className="hover:text-green-500" />
+              <Link href="https://github.com/fdhammond" legacyBehavior>
+                <FaGithub style={iconStyle} className="hover:text-green-500" />
+              </Link>
             </div>
             <div className="flex justify-center text-center">
               <button className="flex justify-center rounded-full bg-green-500 w-2/3 p-2 mt-10 mb-10">
