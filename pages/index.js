@@ -9,7 +9,7 @@ import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
 import Hamburger from "../components/hamburger";
-import Link from "next/link";
+import Head from "next/head";
 
 export default function Home() {
   const iconStyle = {
@@ -17,6 +17,9 @@ export default function Home() {
   };
   return (
     <>
+      <Head>
+        <title>fhammond dev.</title>
+      </Head>
       <div
         className="bg-zinc-900 flex flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-28 h-full"
         id="presentation">
@@ -43,15 +46,17 @@ export default function Home() {
               <p>federico.hammond8@gmail.com</p>
             </div>
             <div className="flex justify-center text-center mt-5">
-                <a href="https://github.com/fdhammond" target="__blank">
-                  <FaGithub style={iconStyle} className="hover:text-green-500" />
-                </a>
+              <a href="https://github.com/fdhammond" target="__blank">
+                <FaGithub style={iconStyle} className="hover:text-green-500" />
+              </a>
             </div>
             <div className="flex justify-center text-center">
               <button className="flex justify-center rounded-full bg-green-500 w-2/3 p-2 mt-10 mb-10">
                 <CiMail size={"1.5rem"} />
                 <span className="ml-3">
-                  <a href="https://www.linkedin.com/in/federico-hammond" target="__blank">
+                  <a
+                    href="https://www.linkedin.com/in/federico-hammond"
+                    target="__blank">
                     HIRE ME!
                   </a>
                 </span>
