@@ -18,6 +18,16 @@ export default function MyProjects() {
             "https://res.cloudinary.com/dzkqopnby/image/upload/v1681255285/crypto_k4gp14.png"
           }
         />
+        <Project
+          tech1="ReactJS"
+          tech2="Typescript"
+          tech3="Tailwind"
+          projectTitle="BMI Mass Calculator App"
+          projectUrl="https://bmi-calculator-app-tan.vercel.app/"
+          urlImage={
+            "https://res.cloudinary.com/dzkqopnby/image/upload/v1698366790/bmi_lw1zrh.png"
+          }
+        />
       </div>
     </div>
   );
