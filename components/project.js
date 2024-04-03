@@ -10,8 +10,8 @@ export default function Project({
   projectTitle,
   projectUrl,
 }) {
-  const techStyle = `rounded-[19px] border-white border-2 w-24 h-fit p-2 flex
-  justify-center ml-2 mr-2 bg-white text-black group-hover:bg-green-400 group-hover:text-white`;
+  const techStyle = `w-auto rounded-[19px] border-green-400 border-2 w-24 h-fit p-2 flex
+  justify-center ml-2 mr-2 bg-black text-white group-hover:bg-green-400 group-hover:text-white`;
 
   return (
     <div className="group">
