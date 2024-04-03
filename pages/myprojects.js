@@ -28,6 +28,16 @@ export default function MyProjects() {
             "https://res.cloudinary.com/dzkqopnby/image/upload/v1698366790/bmi_lw1zrh.png"
           }
         />
+        <Project
+          tech1="ReactJS, Typescript"
+          tech2="TanStack ReactQuery, React Router"
+          tech3="Tailwind, Framer Motion"
+          projectTitle="React Typescript Movies"
+          projectUrl="https://movies-typescript-full.vercel.app/"
+          urlImage={
+            "https://res.cloudinary.com/dzkqopnby/image/upload/v1712153692/movies-typescript_qtw6rd.png"
+          }
+        />
       </div>
     </div>
   );
