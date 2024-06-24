@@ -39,9 +39,9 @@ export default function MyProjects() {
           }
         />
         <Project
-          tech1="NextJS, ReactJs, Typescript, Tailwind,"
-          tech2="TanStack ReactQuery, React Router"
-          tech3="Tailwind, Framer Motion"
+          tech1="NextJS"
+          tech2="ReactJs, Typescript"
+          tech3="Tailwind"
           projectTitle="React Typescript Movies"
           projectUrl="https://car-rent-app-nine.vercel.app/"
           urlImage={
