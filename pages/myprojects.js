@@ -38,6 +38,16 @@ export default function MyProjects() {
             "https://res.cloudinary.com/dzkqopnby/image/upload/v1712153692/movies-typescript_qtw6rd.png"
           }
         />
+        <Project
+          tech1="NextJS, ReactJs, Typescript, Tailwind,"
+          tech2="TanStack ReactQuery, React Router"
+          tech3="Tailwind, Framer Motion"
+          projectTitle="React Typescript Movies"
+          projectUrl="https://car-rent-app-nine.vercel.app/"
+          urlImage={
+            "https://res.cloudinary.com/dzkqopnby/image/upload/v1719271875/web_o1efzb.png"
+          }
+        />
       </div>
     </div>
   );
